@@ -6,9 +6,9 @@ cd $DIR_PREFIX
 
 mkdir teamcity
 
-wget -P teamcity/binaries/ http://cdn.azul.com/zulu/bin/zulu7.21.0.3-jdk7.0.161-linux_x64.tar.gz
-tar -zxf teamcity/binaries/zulu7.21.0.3-jdk7.0.161-linux_x64.tar.gz -C teamcity/
-ln -s zulu7.21.0.3-jdk7.0.161-linux_x64 teamcity/java
+wget -P teamcity/binaries/ http://cdn.azul.com/zulu/bin/zulu8.25.0.1-jdk8.0.152-linux_x64.tar.gz
+tar -zxf teamcity/binaries/zulu8.25.0.1-jdk8.0.152-linux_x64.tar.gz -C teamcity/
+ln -s zulu8.25.0.1-jdk8.0.152-linux_x64 teamcity/java
 
 wget -P teamcity/binaries/ https://download.jetbrains.com/teamcity/TeamCity-10.0.4.tar.gz
 tar -zxf teamcity/binaries/TeamCity-10.0.4.tar.gz -C teamcity/
